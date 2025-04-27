@@ -27,7 +27,7 @@
 <p><a href="https://github.com/valdemirvalentin07">Valdemir V. Santos</a></p>
 
 <p>Desenvolvedores Web</p>
-<p><a href="https://github.com/jhonrrodrigues">Jhon R. Rodrigues</a></p>
+<p><a href="https://github.com/johnrrodrigues">John R. Rodrigues</a></p>
 <p><a href="https://github.com/rrafaelcerqueira">Rafael Cerqueira da Silva </a></p>
 
 <p>Analista de requisitos</p>
