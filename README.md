@@ -1,4 +1,4 @@
-# Projeto Interdisciplinar
+
 
 
 <!DOCTYPE html>
@@ -27,12 +27,12 @@
 <p><a href="https://github.com/valdemirvalentin07">Valdemir V. Santos</a></p>
 
 <p>Desenvolvedores Web</p>
-<p><a href="https://github.com/jhonrrodrigues"></a>Jhon R. Rodrigues</p>
+<p><a href="https://github.com/jhonrrodrigues">Jhon R. Rodrigues</a></p>
 <p><a href="https://github.com/rrafaelcerqueira">Rafael Cerqueira da Silva </a></p>
 
 <p>Analista de requisitos</p>
-<p><a href="https://github.com/Dhiii-Lima"></a>Dhiogo lima</p>
-<p><a href="https://github.com/GabrielT27"></a>Gabriel Marques</p>
+<p><a href="https://github.com/Dhiii-Lima">Dhiogo lima</a></p>
+<p><a href="https://github.com/GabrielT27">Gabriel Marques</a></p>
 
 
 
