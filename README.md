@@ -11,7 +11,7 @@
 <body>
     <h1>Projeto Integrador</h1>
 
-<p> Grupo 5 - Primeiro semestre do Curso Desenvolvimento de Software Multiplataforma da <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/"> FATEC ARARAS</a> </p>
+<p> Grupo 4- Primeiro semestre do Curso Desenvolvimento de Software Multiplataforma da <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/"> FATEC ARARAS</a> </p>
 
 <p> Trabalho de implementação de software <a href="">Thander assistência técnica</a></p>
 
