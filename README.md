@@ -14,11 +14,11 @@
 
 
 
+
+
 <p>Projeto</p>
 <p><a href="">Site do projeto</p>
 <p><a href="">Documentação</a></p>
-
-<img src="imagem/logo.png" alt="img-fluid">
 
 <h1>Colaboradores</h1>
 
