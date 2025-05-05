@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,6 +18,8 @@
 <p><a href="">Site do projeto</p>
 <p><a href="">Documentação</a></p>
 
+<img src="imagem/logo.png" alt="img-fluid">
+
 <h1>Colaboradores</h1>
 
 <p>PO</p>
@@ -32,7 +31,6 @@
 
 <p>Analista de requisitos</p>
 <p><a href="https://github.com/Dhiii-Lima">Dhiogo lima</a></p>
-<p><a href="https://github.com/GabrielT27">Gabriel Marques</a></p>
 
 
 
