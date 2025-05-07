@@ -12,6 +12,7 @@
 
 <p> Trabalho de implementação de software <a 
 href="">Thander assistência técnica</a></p>
+<br> <br/>
 
 
 ![logo](https://github.com/user-attachments/assets/294d57b5-8043-4c6a-b19f-5c9bf310988a)
@@ -32,8 +33,10 @@ href="">Thander assistência técnica</a></p>
 <p><a href="https://github.com/johnrrodrigues">John R. Rodrigues</a></p>
 <p><a href="https://github.com/rrafaelcerqueira">Rafael Cerqueira da Silva </a></p>
 
+
 <p>Analista de requisitos</p>
 <p><a href="https://github.com/Dhiii-Lima">Dhiogo lima</a></p>
+<p><a href="https://github.com/GabrielT27">Gabriel Marques</a></p>
 
 
 
