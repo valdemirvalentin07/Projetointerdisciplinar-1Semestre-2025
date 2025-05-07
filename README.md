@@ -10,8 +10,11 @@
 
 <p> Grupo 4- Primeiro semestre do Curso Desenvolvimento de Software Multiplataforma da <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/"> FATEC ARARAS</a> </p>
 
-<p> Trabalho de implementação de software <a href="">Thander assistência técnica</a></p>
+<p> Trabalho de implementação de software <a 
+href="">Thander assistência técnica</a></p>
 
+
+![logo](https://github.com/user-attachments/assets/294d57b5-8043-4c6a-b19f-5c9bf310988a)
 
 
 
