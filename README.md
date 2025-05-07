@@ -18,6 +18,10 @@ href="">Thander assistência técnica</a></p>
 ![logo](https://github.com/user-attachments/assets/294d57b5-8043-4c6a-b19f-5c9bf310988a)
 
 
+Desenvolver uma aplicação web para a THANDER ASSISTÊNCIA TÉCNICA ARARAS , com foco na divulgação dos serviços, controle da frequência dos atendimentos e gestão financeira. O objetivo é otimizar a organização interna, reforçar a qualidade no atendimento e tornar os serviços da empresa ainda mais acessíveis ao público.
+
+
+
 
 
 <p>Projeto</p>
