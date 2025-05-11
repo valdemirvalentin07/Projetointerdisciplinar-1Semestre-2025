@@ -25,7 +25,7 @@ Desenvolver uma aplicação web para a THANDER ASSISTÊNCIA TÉCNICA ARARAS , co
 
 
 <p>Projeto</p>
-<p><a href="">Site do projeto</p>
+<p><a href="file:///C:/Users/Galego/Documents/PI/PI/C%C3%B3digo/home.html">Site do projeto</p>
 <p><a href="">Documentação</a></p>
 
 <h1>Colaboradores</h1>
