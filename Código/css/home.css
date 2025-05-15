@@ -2,10 +2,6 @@
 body {
     font-family: 'Arial', sans-serif;
     margin-top: 75px; /* Para evitar que a navbar sobreponha conteúdo */
-    background:linear-gradient(50deg,rgb(37, 37, 71),rgb(37, 37, 71));
-    background-attachment: fixed;
-    font-family: Helvetica,Arial,sans-serif;
-   
 }
    
 }
