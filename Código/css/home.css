@@ -1,10 +1,9 @@
-
 body {
     font-family: 'Arial', sans-serif;
     margin-top: 75px; /* Para evitar que a navbar sobreponha conteúdo */
 }
    
-}
+
 .navbar-custom{
     background-color: rgb(8, 8, 183);
 }
@@ -55,12 +54,10 @@ h1,h2{
 
 .about{
     padding: 50px 0;
+}
 
-
-   .footer{ 
+.footer{ 
     background-color: rgb(8, 8, 183);
     max-width: 100%;
     padding: 10px;
-   
-
-   }
+}

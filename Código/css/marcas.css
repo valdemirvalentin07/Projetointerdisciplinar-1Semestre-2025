@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 75px;
+}
+
+.navbar-custom{
+    background-color: rgb(8, 8, 183);
+}
+
+.nav-link:hover {
+  background-color: #7286c0;
+  color: #fff;
+}
+
+.logo-wrapper {
+    background-color: white;
+    border-radius: 15px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    max-width: 90%;
+    object-fit: contain;
+}
+
+#marcasCarousel .carousel-indicators {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#marcasCarousel .carousel-indicators button {
+    width: 3rem;
+    height: 0.4rem;
+    border-radius: 20px;
+    background-color: #A9A9A9;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
+
+#marcasCarousel .carousel-indicators .active {
+    background-color: #0808B7;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#marcasCarousel {
+    width: 100%;
+    max-width: 2000px;
+    margin-bottom: 40px;
+}
+
+/* Bloco de serviços */
+.servicos {
+    border: 1px solid #c2c0c0; 
+    background-color: #D9D9D9; 
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    padding: 20px;
+}
+
+.textoservicoscontainer{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+
+@media (max-width: 600px) {
+  .servicos {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .servicos {
+    font-size: 0.75rem;
+  }
+}
+
+
+/* Imagem Servicos */
+.img-servicos {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26); 
+    border-radius: 10px;
+}
+
+
+
