@@ -7,6 +7,21 @@ body {
     background-color: rgb(8, 8, 183);
 }
 
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
 .nav-link:hover {
   background-color: #7286c0;
   color: #fff;
