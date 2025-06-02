@@ -43,3 +43,30 @@ body {
   border-radius: 10px;
 
 }
+
+/* Animação no hover dos cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.servico-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 16px auto 16px auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+  .cardservico {
+    width: 80%;
+    margin: 10px
+  }
+} 
+
+
