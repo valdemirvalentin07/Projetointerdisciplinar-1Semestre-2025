@@ -12,67 +12,85 @@
 </head>
 
 <body class="bg-body-secondary">
-    <!--Inicio da navbar-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow">
             <div class="container">
-                <i class="navbar-brand fw-bold text-purple">Thander Assistência Técnica</i></a>
+                <span class="navbar-brand fw-bold text-white">
+                    Thander Assistência Técnica
+                </span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a href="home.html" class="nav-link text-white">Home</a></li>
-                        <li class="nav-item"><a href="marcas.html" class="nav-link text-white">Marcas</a></li>
-                        <li class="nav-item"><a href="servicos.html" class="nav-link text-white">Serviços</a></li>
-                        <li class="nav-item">
 
-                        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-1 navbar-column">
                         <li class="nav-item">
-                            <a href="pagina_login.html" class="btn btn-outline-purple nav-link text-white">Login</a>
+                            <a class="nav-link text-white botao-colap" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white botao-colap" href="marcas.html">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white botao-colap" href="servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white botao-colap" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white botao-colap" href="pagina_login.html">Login</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!--Fim da navbar-->
+    <!-- Fim da navbar -->
 
     <main>
         <!-- Coluna de endereço e google maps -->
         <section>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="border border-5 p-4 rounded-4 bg-light ">
-                            <div class="mb-4">
-
-                                <h3>Nossa localização</h3>
-                                <a href="https://maps.app.goo.gl/XdSs1jk2buvV9e466" class="text-decoration-none"><i
-                                        class="bi bi-geo-alt-fill text-primary-emphasis"></i> Av.
-                                    Melvin Jones
-                                    Rua Claudina Rodine Buzolin
-                                    Jardim Buzolin, Araras-SP</a>
-                            </div>
-                            <div>
-                                <h3>Entre em contato agora mesmo</h3>
-                                <a href="tel:+551933524748" class="text-decoration-none"><i
-                                        class="bi bi-telephone-fill text-primary-emphasis"></i> (19) 3352-4748</a>
+                <div class="p-3 rounded-4 bg-light shadow">
+                    <h2 class="text-center mb-4">Nossa Localização e Contato</h2>
+                    <div class="row align-items-center">
+                        <!-- Mapa -->
+                        <div class="col-md-6 mb-3">
+                            <div class="ratio ratio-4x3">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!4v1749136669924!6m8!1m7!1sowKL4fcIXWWjwRPfwGIhDQ!2m2!1d-22.36778079598281!2d-47.3643503157485!3f66.36407154064355!4f8.728803007847333!5f0.7820865974627469"
+                                    style="border:0;" loading="lazy" alt="Localização da Thander Assistência Técnica no Google Maps">
+                                </iframe>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 p-5">
-                        <div class="ratio ratio-4x3">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!4v1749136669924!6m8!1m7!1sowKL4fcIXWWjwRPfwGIhDQ!2m2!1d-22.36778079598281!2d-47.3643503157485!3f66.36407154064355!4f8.728803007847333!5f0.7820865974627469"
-                                style="border:0;" allowfullscreen="" loading="lazy">
-                            </iframe>
+
+                        <!-- Contato -->
+                        <div class="col-md-6">
+                            <div class="text-center mb-4">
+                                <h4><i class="bi bi-geo-alt-fill text-primary-emphasis me-2"></i>Endereço</h4>
+                                <p class="mb-1">Av. Melvin Jones</p>
+                                <p class="mb-1">Rua Claudina Rodine Buzolin</p>
+                                <p class="mb-1">Jardim Buzolin, Araras-SP</p>
+                                <a href="https://maps.app.goo.gl/XdSs1jk2buvV9e466" class="btn btn-primary mt-2">
+                                    Ver no Google Maps
+                                </a>
+                            </div>
+
+                            <div class="text-center">
+                                <h4><i class="bi bi-telephone-fill text-primary-emphasis me-2"></i>Telefone</h4>
+                                <p class="fs-5">(19) 3352-4748</p>
+                                <a href="tel:+551933524748" class="btn btn-success">
+                                    Ligar Agora
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
 
         <!-- Horarios de atendimento  -->
         <section>
@@ -110,8 +128,9 @@
                 <div class="col-md-8">
                     <div class="row g-3">
                         <div class="col-md-4">
-                            <a href="https://wa.me/5511985510069" class="btn btn-light btn-lg w-100">
-                                <i class="bi bi-whatsapp"></i> WhatsApp
+                            <a href="https://wa.me/5511985510069" class="btn btn-light btn-lg w-100"
+                                aria-label="Entrar em contato via WhatsApp">
+                                <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
                             </a>
                         </div>
                         <div class="col-md-4">

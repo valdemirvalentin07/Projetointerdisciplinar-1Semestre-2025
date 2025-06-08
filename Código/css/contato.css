@@ -3,7 +3,6 @@ body {
     margin-top: 75px; /* Para evitar que a navbar sobreponha conteúdo */
 }
    
-
 .navbar-custom{
     background-color: rgb(8, 8, 183);
 }
@@ -13,7 +12,6 @@ body {
   gap: 20px;
   padding: 0;
 }
-
 .nav-link {
 
   color: white;
@@ -21,12 +19,6 @@ body {
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
-
-.nav-link:hover {
-  background-color: #7286c0;
-  color: #fff;
-}
-
 .footer{ 
     background-color: rgb(8, 8, 183);
     max-width: 100%;
@@ -34,3 +26,20 @@ body {
 }
 
 
+@media (max-width: 992px) {
+  .botao-colap {
+    border-radius: 0.5rem;
+    margin: 5px 0px 2px 5px;
+    width: 100px;
+    height: auto;
+    display: flex;
+  } 
+.botao-colap:active,
+.botao-colap:hover {
+  background-color: #0e0ecf;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+}
