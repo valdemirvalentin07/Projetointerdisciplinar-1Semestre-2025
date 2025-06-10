@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin-top: 75px; /* Para evitar que a navbar sobreponha conteúdo */
+    margin-top: 40px; /* Para evitar que a navbar sobreponha conteúdo */
 }
    
 
@@ -46,33 +46,11 @@ body {
 }
 }
 
-/* Hero Section */
-.hero {
-    background: white;
-    padding: 50px 0;
+.hero{
+    background-color: #1111a7;
+    color: white;
+    box-shadow: 0 0 5px black;
 }
 
-.hero img {
-    max-height: 400px;
-    object-fit: cover;
-}
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-h1,h2{
-    color: black;
-}
-
-.about img{
-    max-height: 400px;
-    object-fit: cover;
-    
-}
-
-.about{
-    padding: 50px 0;
-}
 
 
