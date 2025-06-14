@@ -9,45 +9,78 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/pagina_login.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagem/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagem/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagem/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imagem/favicon/site.webmanifest">
 </head>
 
 <body>
 
-    <!--Inicio da navbar-->
+    <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
             <div class="container">
-                <span class="navbar-brand fw-bold text-white">
+                <a class="navbar-brand fw-bold" href="home.html">
                     Thander Assistência Técnica
-                </span>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto mb-1 navbar-column">
+                    <ul class="navbar-nav ms-auto mt-2 mt-md-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white botao-colap" href="home.html">Home</a>
+                            <a class="nav-link" href="home.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-house-door icon-outline"></i>
+                                    <i class="bi bi-house-door-fill icon-fill"></i>
+                                </span>
+                                Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white botao-colap" href="marcas.html">Marcas</a>
+                            <a class="nav-link" href="marcas.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-tags icon-outline"></i>
+                                    <i class="bi bi-tags-fill icon-fill"></i>
+                                </span>
+                                Marcas
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white botao-colap" href="servicos.html">Serviços</a>
+                            <a class="nav-link" href="servicos.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-gear icon-outline"></i>
+                                    <i class="bi bi-gear-fill icon-fill"></i>
+                                </span>
+                                Serviços
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white botao-colap" href="contato.html">Contato</a>
+                            <a class="nav-link" href="contato.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-telephone icon-outline"></i>
+                                    <i class="bi bi-telephone-fill icon-fill"></i>
+                                </span>
+                                Contato
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white botao-colap" href="pagina_login.html">Login</a>
+                            <a class="nav-link active" href="pagina_login.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-person icon-outline"></i>
+                                    <i class="bi bi-person-fill icon-fill"></i>
+                                </span>
+                                Login
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!--Fim da navbar-->
+    <!-- Fim navbar -->
 
     <!-- Formulário de Login -->
     <main class="d-flex justify-content-center align-items-center" style="margin-top:  15rem; margin-bottom: 20rem;">

@@ -1,48 +1,84 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin-top: 75px; /* Para evitar que a navbar sobreponha conteúdo */
+  font-family: 'Arial', sans-serif;
+  margin-top: 40px;
+  /* Para evitar que a navbar sobreponha conteúdo */
 }
-   
 
-.navbar-custom{
-    background-color: rgb(8, 8, 183);
+.navbar-custom {
+  background-color: rgb(8, 8, 183);
 }
+
 .nav {
   list-style: none;
   display: flex;
   gap: 20px;
   padding: 0;
 }
-.nav-link {
 
-  color: white;
-  padding: 10px 15px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-.footer{ 
-    background-color: rgb(8, 8, 183);
-    max-width: 100%;
-    padding: 10px;
+.footer {
+  background-color: rgb(8, 8, 183);
+  max-width: 100%;
+  padding: 1px;
 }
 
-
-@media (max-width: 992px) {
-  .botao-colap {
-    border-radius: 0.5rem;
-    margin: 5px 0px 2px 5px;
-    width: 100px;
-    height: auto;
-    display: flex;
-
-  }
-.botao-colap:active,
-.botao-colap:hover {
-  background-color: #0e0ecf;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  width: auto;
-  height: auto;
+/* Icones navbar */
+.icon-wrapper {
+  position: relative;
+  width: 1.1em;
+  height: 1.1em;
   display: inline-block;
 }
+
+.icon-outline,
+.icon-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.icon-fill {
+  opacity: 0;
+}
+
+.nav-link:hover .icon-outline {
+  opacity: 0;
+}
+
+.nav-link:hover .icon-fill {
+  opacity: 1;
+}
+
+/* Item ativo */
+.nav-link.active .icon-outline {
+  opacity: 0;
+}
+
+.nav-link.active .icon-fill {
+  opacity: 1;
+}
+.nav-link:active,
+.nav-link:hover {
+  background-color: #1f1fcf;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  translate: 0px 2px;
+  transform: translateY(1px) scale(1.01);
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .nav-item {
+    margin-bottom: 2px;
+  }
 }
 

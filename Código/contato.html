@@ -9,159 +9,112 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/contato.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagem/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagem/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagem/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imagem/favicon/site.webmanifest">
 </head>
 
-<body>
-    <!--Inicio da navbar-->
+<body class="bg-body-secondary">
+    <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
             <div class="container">
-                <i class="navbar-brand fw-bold text-purple">Thander Assistência Técnica</i></a>
+                <a class="navbar-brand fw-bold" href="home.html">
+                    Thander Assistência Técnica
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a href="home.html" class="nav-link text-white ">Home</a></li>
-                        <li class="nav-item"><a href="marcas.html" class="nav-link text-white">Marcas</a></li>
-                        <li class="nav-item"><a href="servicos.html" class="nav-link text-white">Serviços</a></li>
+                    <ul class="navbar-nav ms-auto mt-2 mt-md-0">
                         <li class="nav-item">
-
-                        <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                            <a class="nav-link" href="home.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-house-door icon-outline"></i>
+                                    <i class="bi bi-house-door-fill icon-fill"></i>
+                                </span>
+                                Home
+                            </a>
+                        </li>
                         <li class="nav-item">
-                            <a href="pagina_login.html" class="btn btn-outline-purple nav-link text-white">Login</a>
+                            <a class="nav-link" href="marcas.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-tags icon-outline"></i>
+                                    <i class="bi bi-tags-fill icon-fill"></i>
+                                </span>
+                                Marcas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-gear icon-outline"></i>
+                                    <i class="bi bi-gear-fill icon-fill"></i>
+                                </span>
+                                Serviços
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contato.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-telephone icon-outline"></i>
+                                    <i class="bi bi-telephone-fill icon-fill"></i>
+                                </span>
+                                Contato
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagina_login.html">
+                                <span class="icon-wrapper me-1">
+                                    <i class="bi bi-person icon-outline"></i>
+                                    <i class="bi bi-person-fill icon-fill"></i>
+                                </span>
+                                Login
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <!--Fim da navbar-->
-    <body class="bg-body-secondary">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow">
-                <div class="container">
-                    <span class="navbar-brand fw-bold text-white">
-                        Thander Assistência Técnica
-                    </span>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto mb-1 navbar-column">
-                            <li class="nav-item">
-                                <a class="nav-link text-white botao-colap" href="home.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white botao-colap" href="marcas.html">Marcas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white botao-colap" href="servicos.html">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white botao-colap" href="contato.html">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white botao-colap" href="pagina_login.html">Login</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <!-- Fim da navbar -->
-        <main>
-            <!-- Coluna de endereço e google maps -->
-            <section>
-                <div class="container">
-                    <div class="p-3 rounded-4 bg-light shadow">
-                        <h2 class="text-center mb-4">Nossa Localização e Contato</h2>
-                        <div class="row align-items-center">
-                            <!-- Mapa -->
-                            <div class="col-md-6 mb-3">
-                                <div class="ratio ratio-4x3">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!4v1749136669924!6m8!1m7!1sowKL4fcIXWWjwRPfwGIhDQ!2m2!1d-22.36778079598281!2d-47.3643503157485!3f66.36407154064355!4f8.728803007847333!5f0.7820865974627469"
-                                        style="border:0;" loading="lazy"
-                                        alt="Localização da Thander Assistência Técnica no Google Maps">
-                                    </iframe>
-                                </div>
-                            </div>
-
-                            <!-- Contato -->
-                            <div class="col-md-6">
-                                <div class="text-center mb-4">
-                                    <h4><i class="bi bi-geo-alt-fill text-primary-emphasis me-2"></i>Endereço</h4>
-                                    <p class="mb-1">Av. Melvin Jones</p>
-                                    <p class="mb-1">Rua Claudina Rodine Buzolin</p>
-                                    <p class="mb-1">Jardim Buzolin, Araras-SP</p>
-                                    <a href="https://maps.app.goo.gl/XdSs1jk2buvV9e466" class="btn btn-primary mt-2">
-                                        Ver no Google Maps
-                                    </a>
-                                </div>
-
-                                <div class="text-center">
-                                    <h4><i class="bi bi-telephone-fill text-primary-emphasis me-2"></i>Telefone</h4>
-                                    <p class="fs-5">(19) 3352-4748</p>
-                                    <a href="tel:+551933524748" class="btn btn-success">
-                                        Ligar Agora
-                                    </a>
-                                </div>
+    <!-- Fim navbar -->
+    <main>
+        <!-- Coluna de endereço e google maps -->
+        <section>
+            <div class="container">
+                <div class="p-3 rounded-4 bg-light shadow">
+                    <h2 class="text-center mb-4">Nossa Localização e Contato</h2>
+                    <div class="row align-items-center">
+                        <!-- Mapa -->
+                        <div class="col-md-6 mb-3">
+                            <div class="ratio ratio-4x3">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!4v1749136669924!6m8!1m7!1sowKL4fcIXWWjwRPfwGIhDQ!2m2!1d-22.36778079598281!2d-47.3643503157485!3f66.36407154064355!4f8.728803007847333!5f0.7820865974627469"
+                                    style="border:0;" loading="lazy"
+                                    alt="Localização da Thander Assistência Técnica no Google Maps">
+                                </iframe>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Horarios de atendimento  -->
-            <section>
-                <div class="container-fluid text-center bg-light p-3 mt-3" style="border-top: 1px solid gainsboro;">
-                    <h3 class="mt-1 mb-4">Horários de Funcionamento</h3>
-                    <div class="row p-3">
-                        <div class="col-md-4 mb-3">
-                            <i class="bi bi-clock-fill text-primary-emphasis fs-4"></i>
-                            <h4>Segunda a Sexta</h4>
-                            <p class="fs-5">09:00 às 17:00</p>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <i class="bi bi-clock-fill text-primary-emphasis fs-4"></i>
-                            <h4>Sábado</h4>
-                            <p class="fs-5">09:00 às 11:30</p>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <i class="bi bi-x-circle-fill text-danger fs-4"></i>
-                            <h4>Domingo</h4>
-                            <p class="fs-5">Fechado</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Contato -->
-        <section class="container-fluid justify-content-center shadow" style="background-color: #0808B7; color: white;">
-            <div class="text-center p-4">
-                <h4 class="text-white mb-3">Entre em Contato</h4>
-                <p style="color: white;">Escolha a forma mais conveniente para você</p>
-                <div class="row justify-content-center mt-4">
-                    <div class="col-md-8">
-                        <div class="row g-3">
-                            <div class="col-md-4">
-                                <a href="https://wa.me/5511985510069" class="btn btn-light btn-lg w-100"
-                                    aria-label="Entrar em contato via WhatsApp">
-                                    <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
+
+                        <!-- Contato -->
+                        <div class="col-md-6">
+                            <div class="text-center mb-4">
+                                <h4><i class="bi bi-geo-alt-fill text-primary-emphasis me-2"></i>Endereço</h4>
+                                <p class="mb-1">Av. Melvin Jones</p>
+                                <p class="mb-1">Rua Claudina Rodine Buzolin</p>
+                                <p class="mb-1">Jardim Buzolin, Araras-SP</p>
+                                <a href="https://maps.app.goo.gl/XdSs1jk2buvV9e466" class="btn btn-primary mt-2">
+                                    Ver no Google Maps
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="tel:+551933524748" class="btn btn-light btn-lg w-100">
-                                    <i class="bi bi-telephone-fill"></i> Ligar Agora
-                                </a>
-                            </div>
-                            <div class="col-md-4">
-                                <a href="mailto:thanderassistenciatecnica@hotmail.com"
-                                    class="btn btn-light btn-lg w-100">
-                                    <i class="bi bi-envelope-fill"></i> E-mail
+
+                            <div class="text-center">
+                                <h4><i class="bi bi-telephone-fill text-primary-emphasis me-2"></i>Telefone</h4>
+                                <p class="fs-5">(19) 3352-4748</p>
+                                <a href="tel:+551933524748" class="btn btn-success">
+                                    Ligar Agora
                                 </a>
                             </div>
                         </div>
@@ -169,16 +122,70 @@
                 </div>
             </div>
         </section>
-        <!-- Fim contato -->
-        <!--Inicio do rodapé-->
-        <footer class="footer">
-            <div class="container-fluid text-center p-3 text-white">
-                &copy; Thander Assistência Técnica 2025. Todos os direitos reservados.
+        <!-- Horarios de atendimento  -->
+        <section>
+            <div class="container-fluid text-center bg-light p-3 mt-3" style="border-top: 1px solid gainsboro;">
+                <h3 class="mt-1 mb-4">Horários de Funcionamento</h3>
+                <div class="row p-3">
+                    <div class="col-md-4 mb-3">
+                        <i class="bi bi-clock-fill text-primary-emphasis fs-4"></i>
+                        <h4>Segunda a Sexta</h4>
+                        <p class="fs-5">09:00 às 17:00</p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <i class="bi bi-clock-fill text-primary-emphasis fs-4"></i>
+                        <h4>Sábado</h4>
+                        <p class="fs-5">09:00 às 11:30</p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <i class="bi bi-x-circle-fill text-danger fs-4"></i>
+                        <h4>Domingo</h4>
+                        <p class="fs-5">Fechado</p>
+                    </div>
+                </div>
             </div>
-        </footer>
-        <!--Fim do rodapé-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        </section>
+    </main>
+    <!-- Contato -->
+    <section class="container-fluid justify-content-center shadow" style="background-color: #0808B7; color: white;">
+        <div class="text-center p-4">
+            <h4 class="text-white mb-3">Entre em Contato</h4>
+            <p style="color: white;">Escolha a forma mais conveniente para você</p>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <a href="https://wa.me/5511985510069" class="btn btn-light btn-lg w-100"
+                                aria-label="Entrar em contato via WhatsApp">
+                                <i class="bi bi-whatsapp" aria-hidden="true"></i> WhatsApp
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="tel:+551933524748" class="btn btn-light btn-lg w-100">
+                                <i class="bi bi-telephone-fill"></i> Ligar Agora
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="mailto:thanderassistenciatecnica@hotmail.com" class="btn btn-light btn-lg w-100">
+                                <i class="bi bi-envelope-fill"></i> E-mail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim contato -->
+    <!--Inicio do rodapé-->
+    <footer class="footer">
+        <div class="container-fluid text-center p-3 text-white">
+            &copy; Thander Assistência Técnica 2025. Todos os direitos reservados.
+        </div>
+    </footer>
+    <!--Fim do rodapé-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
-    </body>
+</body>
+
 </html>
