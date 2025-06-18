@@ -8,25 +8,28 @@
 <body>
     <h1>Projeto Integrador</h1>
 
-<p> Grupo 4- Primeiro semestre do Curso Desenvolvimento de Software Multiplataforma da <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/"> FATEC ARARAS</a> </p>
+<p>Grupo 4 - Primeiro Semestre do Curso Desenvolvimento de Software Multiplataforma da <a href="https://fatecararas.cps.sp.gov.br/tecnologia-em-desenvolvimento-de-softwares-multiplataforma/">FATEC ARARAS</a>. </p>
 
-<p> Trabalho de implementação de software <a 
-href="">Thander assistência técnica</a></p>
-<br> <br/>
+<p>Projeto de implementação de software para<b> Thander Assistência Técnica.</b></p>
+<br>
 
 
 ![logo](https://github.com/user-attachments/assets/294d57b5-8043-4c6a-b19f-5c9bf310988a)
 
 
-Desenvolver uma aplicação web para a THANDER ASSISTÊNCIA TÉCNICA ARARAS , com foco na divulgação dos serviços, controle da frequência dos atendimentos e gestão financeira. O objetivo é otimizar a organização interna, reforçar a qualidade no atendimento e tornar os serviços da empresa ainda mais acessíveis ao público.
+<h1>Objetivo</h1>
+Desenvolver uma aplicação web para a Thander Assistência Técnica Araras, com foco na divulgação dos serviços, controle da frequência dos atendimentos e gestão financeira. O objetivo é otimizar a organização interna, reforçar a qualidade no atendimento e tornar os serviços da empresa ainda mais acessíveis ao público.
+<br>
+<br>
+<p><a href="https://johnrrodrigues.github.io/pi-primeiro-semestre/index.html">Visualize nosso projeto</p>
+<p><a href="Documentação">Documentação</a></p>
 
-
-
-
-
-<p>Projeto</p>
-<p><a href="[">Site do projeto</p>
-<p><a href="">Documentação</a></p>
+<h1>Tecnologias Utilizadas</h1>
+<div style="display: flex">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" alt="HTML5"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" alt="CSS3"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" alt="Bootstrap"/>
+</div>
 
 <h1>Colaboradores</h1>
 
@@ -42,9 +45,6 @@ Desenvolver uma aplicação web para a THANDER ASSISTÊNCIA TÉCNICA ARARAS , co
 <p><a href="https://github.com/Dhiii-Lima">Dhiogo lima</a></p>
 <p><a href="https://github.com/GabrielT27">Gabriel Marques</a></p>
 
-
-
-    
 </body>
 </html>
 
